@@ -1,0 +1,14 @@
+main{
+    padding: 0 2rem;
+}
+
+.professorDanilo{
+    display: flex;
+    justify-content: space-between;
+}
+.professorDanilo img{
+    max-width: 300px;
+}
+.professorDanilo > *{
+    max-width: 50%;
+}

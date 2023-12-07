@@ -1,0 +1,98 @@
+
+
+
+/* landing Page */
+main{
+    text-align: justify;
+    padding-top: 2rem;
+}
+
+main h2{
+    font-size: var(--fontSubTitle);
+    line-height: var(--lineSubTitle);
+}
+
+main *{
+    font-size: var(--fontText);
+    line-height: var(--lineText);
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* --- */
+
+main > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: start;
+}
+
+main > div.conteudo > div,img{
+    max-width: 540px;
+}
+
+#guardaChuvaDownload{
+    padding: 1rem 2rem;
+    border: 3px solid var(--accent);
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: var(--whitePiano);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.guardaChuva, .encontros{
+    height: 300px;
+}
+
+/*----------------- CONTATO -----------------*/
+
+
+.contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.contato > div {
+    border: 2px solid var(--accent);
+    width: 70%;
+    display: flex;
+    padding: 1rem;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 45%;
+}
+.contato__estudantes{
+    width: 45%;
+}
+
+.contato textarea{
+    resize: none;
+}
+
+.contato input,button{
+    height: 20%;
+}
+
+.contato textarea{
+    height: 40%;
+}
+.contato input, textarea, button{
+    margin: 0;
+    padding: .8rem 1.5rem;
+    background: none;
+    outline: none;
+    border: 2px solid var(--whitePiano);
+    color: var(--whitePiano);
+}
